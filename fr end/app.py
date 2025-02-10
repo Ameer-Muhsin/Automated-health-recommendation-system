@@ -11,6 +11,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 app = Flask(__name__)
 
 
+
+
 def custom_tokenizer(text):
     return text.split()
 
